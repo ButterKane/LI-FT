@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.Diamant", "Assembly-CSharp.csproj", "{EA84EA30-2919-0005-3D4A-A46FDAC37352}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.Diamant", "Assembly-CSharp-Editor.csproj", "{DDD8ECE9-153D-8FF5-B6F2-F598F0B0E9F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA84EA30-2919-0005-3D4A-A46FDAC37352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA84EA30-2919-0005-3D4A-A46FDAC37352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA84EA30-2919-0005-3D4A-A46FDAC37352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA84EA30-2919-0005-3D4A-A46FDAC37352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDD8ECE9-153D-8FF5-B6F2-F598F0B0E9F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDD8ECE9-153D-8FF5-B6F2-F598F0B0E9F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDD8ECE9-153D-8FF5-B6F2-F598F0B0E9F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDD8ECE9-153D-8FF5-B6F2-F598F0B0E9F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

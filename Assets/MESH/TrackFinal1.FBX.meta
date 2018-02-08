@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: 3a379960191773249a81aac541f8e38e
+timeCreated: 1517575845
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: AllArbre3boules
+    100002: AllArbreBulbe
+    100004: AllArbrePeuplier
+    100006: AllBush
+    100008: AllClouds
+    100010: AllRocks
+    100012: AllRocksNatural
+    100014: AllSapin
+    100016: AllTreeDead
+    100018: Land
+    100020: MainTrack
+    100022: //RootNode
+    100024: UCX_MainTrack
+    100026: WaterPlane
+    400000: AllArbre3boules
+    400002: AllArbreBulbe
+    400004: AllArbrePeuplier
+    400006: AllBush
+    400008: AllClouds
+    400010: AllRocks
+    400012: AllRocksNatural
+    400014: AllSapin
+    400016: AllTreeDead
+    400018: Land
+    400020: MainTrack
+    400022: //RootNode
+    400024: UCX_MainTrack
+    400026: WaterPlane
+    2100000: No Name
+    2300000: AllArbre3boules
+    2300002: AllArbreBulbe
+    2300004: AllArbrePeuplier
+    2300006: AllBush
+    2300008: AllClouds
+    2300010: AllRocks
+    2300012: AllRocksNatural
+    2300014: AllSapin
+    2300016: AllTreeDead
+    2300018: Land
+    2300020: MainTrack
+    2300022: UCX_MainTrack
+    2300024: WaterPlane
+    3300000: AllArbre3boules
+    3300002: AllArbreBulbe
+    3300004: AllArbrePeuplier
+    3300006: AllBush
+    3300008: AllClouds
+    3300010: AllRocks
+    3300012: AllRocksNatural
+    3300014: AllSapin
+    3300016: AllTreeDead
+    3300018: Land
+    3300020: MainTrack
+    3300022: UCX_MainTrack
+    3300024: WaterPlane
+    4300000: MainTrack
+    4300002: UCX_MainTrack
+    4300004: Land
+    4300006: WaterPlane
+    4300008: AllSapin
+    4300010: AllRocks
+    4300012: AllArbreBulbe
+    4300014: AllArbrePeuplier
+    4300016: AllArbre3boules
+    4300018: AllTreeDead
+    4300020: AllBush
+    4300022: AllClouds
+    4300024: AllRocksNatural
+    7400000: Trackv11
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 0
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: M_Water
+  m_Shader: {fileID: 4800000, guid: f533fe33787852e40bb60e084c75b7a8, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T_PerlinNoise_N:
+        m_Texture: {fileID: 2800000, guid: e8c14b5ffb15ee844bf680994c300ee8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 2800000, guid: 324b705d9ebb6394d97691bc3727dd0c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Amplitude: 11
+    - _Amplitude_01: 5
+    - _Amplitude_02: 7
+    - _ChromaticAberration: 0
+    - _DepthFade: 12.42
+    - _DepthFadeColorInfluence: 0.21
+    - _Direction: 78.98
+    - _Direction_01: 14.6
+    - _Direction_02: 124
+    - _FDepthFade: 0
+    - _Float0: 1
+    - _Glossiness: 0.5
+    - _Int0: 5
+    - _Int2: 100
+    - _Metallic: 0
+    - _Smoothness: 0.34
+    - _SpecColor_Int: 1
+    - _Spec_Int: 0.22
+    - _SpecularColor_Int: 0.51
+    - _SwitchZtoY: 0
+    - _TessPhongStrength: 1
+    - _TessValue: 1
+    - _Tesselation: 1
+    - _Tile: 211.1
+    - _Tile_01: 400
+    - _Tile_02: 123
+    - _TransAmbient: 0.2
+    - _TransDirect: 1
+    - _TransNormalDistortion: 0.1
+    - _TransScattering: 2
+    - _TransShadow: 0.9
+    - _Translucency: 0.99
+    - _Translucency_Int: 2.26
+    - __dirty: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color0: {r: 0.1131596, g: 0.30103517, b: 0.6691177, a: 0}
+    - _Color1: {r: 0.22480536, g: 0.7812983, b: 0.9264706, a: 0}
+    - _ColorDeep: {r: 0, g: 0.28042603, b: 0.5147059, a: 0}
+    - _ColorLight: {r: 0.42647058, g: 0.95253545, b: 1, a: 0}

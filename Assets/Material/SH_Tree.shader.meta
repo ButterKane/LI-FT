@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 0e606d91feb22514ca99bf5325c444f1
+timeCreated: 1515461667
+licenseType: Free
+ShaderImporter:
+  defaultTextures:
+  - _Heightmap: {fileID: 2800000, guid: 0a1d6998a4dcb944180ae9a131f57a45, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
