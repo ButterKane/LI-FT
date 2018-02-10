@@ -23,6 +23,8 @@ public class DumbXboxControl : MonoBehaviour {
 	private float rStickX;
 	public float Trigger;
 
+	private Vector3 InitialPos;
+
 	// Use this for initialization
 	void Start () 
 	{
@@ -33,6 +35,7 @@ public class DumbXboxControl : MonoBehaviour {
 
 		rig.centerOfMass = new Vector3(0,0,0);
 
+		InitialPos = transform.position; 
 	}
 	
 	void Update () 
@@ -52,17 +55,25 @@ public class DumbXboxControl : MonoBehaviour {
 			rStickX = Input.GetAxis ("Xbox_RStickX");
 			Trigger = Input.GetAxis ("Xbox_Triggers");
 
-	
+
 
 //		transform.Rotate (new Vector3 (0, lStickX, 0), turnspeed * Time.deltaTime);
 
 			rig.AddTorque (new Vector3 (0, lStickX * turnspeed, 0));
+			if (Input.GetKey (KeyCode.LeftArrow)) 
+			{
+				transform.Rotate (0, 0.01f * -turnspeed, 0);
+			}
+			if (Input.GetKey (KeyCode.RightArrow)) 
+			{
+				transform.Rotate (0, 0.01f * turnspeed, 0);
+			}
 
 //		transform.Translate (-(new Vector3 (0, 0, rStickX))/2);
 
 			rig.AddRelativeForce (new Vector3 (0, 0, -rStickX * 40));
 
-			if (Trigger < 0) {
+			if (Trigger < 0 || Input.GetKey(KeyCode.UpArrow)) {
 				if (vitesse < vitesseMax) {
 //				Vector3 Direction = transform.right;
 //				rig.AddForce (Direction * lastPickup);
@@ -71,7 +82,7 @@ public class DumbXboxControl : MonoBehaviour {
 				} 
 			}
 
-			if (Trigger > 0) {
+			if (Trigger > 0 || Input.GetKey(KeyCode.DownArrow)) {
 				if (vitesse < vitesseMax) {
 //			Vector3 Direction = transform.right;
 //				Grig.AddForce (Direction * -lastPickup);
@@ -82,7 +93,7 @@ public class DumbXboxControl : MonoBehaviour {
 		} 
 		else
 		{
-			transform.position = transform.position;
+			transform.position = InitialPos;
 		}
 	}
 

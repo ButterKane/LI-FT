@@ -88,7 +88,6 @@ public class RaceGestion : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other)
 	{
-		Debug.Log ("lalalalala");
 		if (other.gameObject == FinishLine) 
 		{
 			if (wentThroughCheckpoint == true) 

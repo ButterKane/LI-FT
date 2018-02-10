@@ -20,7 +20,7 @@ public class CameraFollow : MonoBehaviour {
 //	void LateUpdate () 
 	{
 		bool actifOuPas = GetComponent<Menu> ().isGameOn;
-		Debug.Log (actifOuPas);
+//		Debug.Log (actifOuPas);
 
 		if (actifOuPas == true) 
 		{
@@ -29,7 +29,7 @@ public class CameraFollow : MonoBehaviour {
 			Vector3 PosToLook = TargetToLook.position - transform.position;
 			Quaternion Rot = Quaternion.LookRotation (PosToLook);
 			transform.rotation = Quaternion.Lerp (transform.rotation, Rot, RotLerpSpeed);
-			Debug.Log ("Camera normale");
+//			Debug.Log ("Camera normale");
 		}
 
 		else if (actifOuPas == false) 
@@ -39,7 +39,7 @@ public class CameraFollow : MonoBehaviour {
 			Vector3 PosToLook = MenuCameraLook.position - transform.position;
 			Quaternion Rot = Quaternion.LookRotation (PosToLook);
 			transform.rotation = Quaternion.Lerp (transform.rotation, Rot, RotLerpSpeed);
-			Debug.Log ("Camera Menu");
+//			Debug.Log ("Camera Menu");
 		}
 
 	}

@@ -59,7 +59,7 @@ public class Levitation : MonoBehaviour {
 	//		Debug.Log ("ActualGravity = " + Physics.gravity);
 			Physics.gravity  = tempGravity + new Vector3 (0, -hit.distance*1.2f,0); 
 //			Debug.Log ("distance = " + hit.distance);
-			Debug.Log ("12323");
+//			Debug.Log ("12323");
 
 			if (Physics.gravity.y > tempGravityValue-3.5f) 
 			{
