@@ -39,7 +39,7 @@ Material:
     - _Amplitude_01: 5
     - _Amplitude_02: 7
     - _ChromaticAberration: 0
-    - _DepthFade: 12.42
+    - _DepthFade: -30
     - _DepthFadeColorInfluence: 0.21
     - _Direction: 78.98
     - _Direction_01: 14.6
@@ -65,9 +65,9 @@ Material:
     - _TransDirect: 1
     - _TransNormalDistortion: 0.1
     - _TransScattering: 2
-    - _TransShadow: 0.9
+    - _TransShadow: 0
     - _Translucency: 0.99
-    - _Translucency_Int: 2.26
+    - _Translucency_Int: 1
     - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
